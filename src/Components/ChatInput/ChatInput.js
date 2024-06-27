@@ -57,7 +57,7 @@ function ChatInput({ generatedChat, chat, setchat, setsrolltoBottom }) {
             padding: "20px",
             color: "black",
             marginRight: "10px",
-            width: "980px",
+            width: "950px",
 
             "@media (max-width: 764px)": {
               width: "100%",
@@ -77,9 +77,7 @@ function ChatInput({ generatedChat, chat, setchat, setsrolltoBottom }) {
             background: theme.palette.primary.main,
             border: `1px solid ${theme.palette.primary.main} `,
             marginRight: "10px",
-            "&:hover": {
-              backgroundColor: theme.palette.primary.dark, 
-            },
+           
           }}
         >
           ASK
@@ -94,9 +92,7 @@ function ChatInput({ generatedChat, chat, setchat, setsrolltoBottom }) {
             background: theme.palette.primary.main,
             border: `1px solid ${theme.palette.primary.main} `,
             marginRight: "10px",
-            "&:hover": {
-              backgroundColor: theme.palette.primary.dark, 
-            },
+            
           }}
         >
           SAVE

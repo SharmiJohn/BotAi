@@ -23,7 +23,7 @@ function IntialCard({generatedChat}) {
     },
   ];
   return <div>
-    <Stack justifyContent="center" alignItems="center" sx={{marginTop:{md:"175px",xs:"100px"}}} >
+    <Stack justifyContent="center" alignItems="center" sx={{marginTop:{md:"150px",xs:"100px"}}} >
         <Typography variant="h2" sx={{color:"text.primary"}}>How Can I Help You Today?</Typography>
         <Box > <img src={logo1} alt="logo" style={{width:"70px"}}/></Box>
        
