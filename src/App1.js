@@ -6,9 +6,10 @@ import React from 'react';
 import {context } from "./Components/theme/context";
 import {ThemeProvider} from "@mui/material";
 import Sidebar from "./Components/Sidebar/Sidebar";
-import Home from "../src/Pages/Home/Home";
+import Past from "./Pages/Past/Past";
 
-function App() {
+
+function App1() {
   const [mode,setmode]=useState("light");
  
   const [close,setclose]=useState(false);
@@ -48,7 +49,7 @@ function App() {
    
   </Grid>
   <Grid item xs={12} md={9.5} sx={{backgroundColor, height:"100vh",}}>
-    <Home setclose={setclose} setchat={setchat} chat={chat}/>
+  <Past setclose={setclose}/>
   
   </Grid>
   
@@ -60,4 +61,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;
