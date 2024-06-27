@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# AI Bot Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an AI Bot application that answers your questions. You can interact with the bot by typing in your questions, and it will provide relevant answers. The application also includes features for giving feedback, switching between light and dark modes, and saving your chat history.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Question and Answer Interaction**: Type in your questions and receive answers from the AI Bot.
+- **Feedback System**: Provide feedback by clicking the like or dislike button.
+- **Rating**: Rate the bot's responses.
+- **Dark and Light Mode**: Switch between dark mode for night view and light mode for day view.
+- **Save and View Chats**: Save your chat history and view it whenever you want.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: For building the user interface.
+- **Material UI**: For styling and UI components.
+- **Date-fns**: For date formatting.
+- **React Icons**: For icons used in the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/SharmiJohn/BotAi
+   cd ai-bot-application
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the application**:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Build the application** (for production):
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm run build
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Ask a Question**: Type your question in the input box and hit enter. The AI Bot will respond with an answer.
+2. **Provide Feedback**: Click the like or dislike button to provide feedback on the bot's response.
+3. **Rate the Response**: If you like a response, you can give it a rating by clicking the rating stars.
+4. **Switch Modes**: Use the toggle switch to switch between dark mode and light mode.
+5. **Save Chats**: Save your chat history by clicking the save button. You can view your saved chats later.
 
-## Learn More
+## File Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```plaintext
+ai-bot-application/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── ChattingCard.js
+│   │   ├── FeedbackModal.js
+│   │   └── ...
+│   ├── assets/
+│   │   ├── AI.png
+│   │   ├── human.png
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+```
